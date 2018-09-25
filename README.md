@@ -53,6 +53,8 @@ rosrun rosserial_arduino make_libraries.py .
  
 8 complete
 
+you also can use selfmakemessage.zip, there include selfmakemessage/msg files, but you have to operate 4-7 steps.
+
 if you have any problems in the tiny project, you can contact with me.
 e-mail:zhi12271125@gmail.com
 
