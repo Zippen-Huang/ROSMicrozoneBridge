@@ -17,6 +17,7 @@ mkdir selfmakemessage/msg
 
 2 come into file msg and create a  Microzone.msg file
 touch Microzone.msg
+
 3 open Microzone.msg and write in msg data structure
 int ch1
 int ch2
@@ -34,14 +35,14 @@ sudo apt-get install ros-indigo-rosserial
 rospack profile
 
 6 install rosserial
-  cd <ws>/src
-  git clone https://github.com/ros-drivers/rosserial.git
-  cd <ws>
-  catkin_make
+cd <ws>/src
+git clone https://github.com/ros-drivers/rosserial.git
+cd <ws>
+catkin_make
   
 7 produce roslib
- cd <arduino_lib_directory>
- rosrun rosserial_arduino make_libraries.py .
+cd <arduino_lib_directory>
+rosrun rosserial_arduino make_libraries.py .
  
 8 complete
 
